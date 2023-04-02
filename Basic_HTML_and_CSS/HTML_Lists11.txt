@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<body>
+	<h2>My Favorite Rock Climbing Holds: Best to Worst</h2>
+	<ol>
+		<li>Jugs</li>
+		<li>Undercling</li>
+		<li>Edge</li>
+		<li>Pinch</li>
+		<li>Crimp</li>
+		<li>Flake</li>
+		<li>Pocket</li>
+		<li>Horn</li>
+		<li>Sloper</li>
+	</ol>
+	
+	<h2>Rock Climbing Gyms I've Visited</h2>
+	<ul>
+		<li>Touchstone Pipeworks</li>
+		<li>Planet Granite Presidio</li>
+		<li>Touchstone Pacific Pipe</li> 
+	</ul>
+	</body>
+</html>

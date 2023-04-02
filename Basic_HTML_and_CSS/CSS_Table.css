@@ -1,0 +1,15 @@
+table {
+	border: solid 5px DarkViolet;
+}
+td:hover {
+	background-color: LightGoldenRodYellow;
+	color: black;
+}
+tr, th{
+	background-color: Lavender;
+	color: black;
+}
+tr, td {
+	background-color: Linen;
+	color: black;
+}
