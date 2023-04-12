@@ -4,6 +4,8 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
+
         {
             "name": "Launch Chrome",
             "request": "launch",
@@ -19,7 +21,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\VSC_Test\\Hello_World.js"
+            "program": "${workspaceFolder}\\Project_Basic_HTML_Website\\CSS\\shared.css"
         }
     ]
 }
