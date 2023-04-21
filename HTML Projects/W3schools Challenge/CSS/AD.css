@@ -1,0 +1,130 @@
+.navbar {
+    overflow: hidden;
+    background-color: lightskyblue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align:center;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background: royalblue;
+    color: black;
+}
+
+h1 {
+    display: block;
+    margin-top: 80px;
+}
+
+img {
+    filter: grayscale(28%);
+    border-radius:75px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+p:hover {
+    background-color:bisque;
+}
+
+.overlay {
+    position: absolute; 
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: greenyellow
+}
+
+.container {
+    position: relative; 
+    text-align: cener;
+    color: white;
+}
+
+.container:hover .overlay {
+    opacity: 25;
+}
+
+.text {
+    color: black;
+    font-size: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate (-50%. -50%);
+    text-align: center;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    color:black;
+}
+
+
+.column {
+    flex: 50%;
+    color: indigo;
+    height: 650px;
+    width: 300px;
+}
+
+.row {
+    display: flex;
+}
+
+.table {
+    border-style: double; 
+    border-color:aqua;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 10px;
+    padding-left: 10%;
+    padding-right:  10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+
+th {
+    background-color:burlywood;
+    border-style: solid;
+    border-color:black;
+    padding-left: auto;
+    padding-right:  auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+td {
+    border-style: solid;
+    border-color:black;
+    padding-left: auto;
+    padding-right:  auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+@media screen and (max-width: 600px) {
+    p {
+        color: royalblue;
+    }
+}
